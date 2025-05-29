@@ -1,0 +1,141 @@
+<html>
+<head>
+    <title>Мир Музыки — производство музыкальных инструментов</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            color: #4169E1;
+        }
+        
+        h2 {
+            font-size: 40px;
+            color: #4169E1;
+        }
+        
+        p {
+            font-size: 20px;
+            line-height: 1.5;
+        }
+        
+        header, footer {
+            background-color: #191970;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        nav a {
+            color: white;
+            font-size: 18px;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        
+        nav a:hover {
+            text-decoration: underline;
+        }
+        
+        img {
+            border-radius: 10px;
+            margin: 10px;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            font-size: 20px;
+            background-color: #F0F8FF;
+        }
+
+        th, td {
+            border: 2px solid #4169E1;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #4169E1;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://cdn-icons-png.flaticon.com/512/727/727218.png" alt="Логотип Мир Музыки" width="200">
+        <nav>
+            <a href="#about">О компании</a>
+            <a href="#instruments">Инструменты</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Мир Музыки — производство инструментов</h1>
+        <h2 id="about">О компании</h2>
+        <p>Мир Музыки — российский производитель акустических инструментов премиум-класса, основанный в 1998 году.</p>
+        <p>Компания специализируется на ручном изготовлении музыкальных инструментов с использованием традиционных технологий и современных материалов.</p>
+
+        <h2 id="instruments">Основные категории инструментов</h2>
+        <p><strong>Струнные</strong> — гитары, скрипки, виолончели с глубоким насыщенным звучанием.</p>
+        <p><em>Духовые</em> — саксофоны, флейты, трубы из латуни и специальных сплавов.</p>
+        <p><strong>Ударные</strong> — барабанные установки, перкуссия, литавры профессионального уровня.</p>
+        <p><em>Клавишные</em> — акустические пианино, рояли, цифровые синтезаторы.</p>
+        
+        <img src="https://images.unsplash.com/photo-1511379938547-c1f69419868d" alt="Гитары" width="600">
+        <img src="https://yamaha.ru/upload/iblock/f21/oddtxmg8ed38d0abi024xflie0pfr55d/552.jpg" alt="Пианино" width="400">
+
+        <h2>История создания инструментов</h2>
+        <table>
+            <tr>
+                <th>Инструмент</th>
+                <th>Год создания</th>
+                <th>Особенности</th>
+            </tr>
+            <tr>
+                <td>Скрипка Stradivari</td>
+                <td>1700</td>
+                <td>Уникальный лак и форма корпуса</td>
+            </tr>
+            <tr>
+                <td>Саксофон</td>
+                <td>1846</td>
+                <td>Изобретен Адольфом Саксом</td>
+            </tr>
+            <tr>
+                <td>Электрогитара</td>
+                <td>1931</td>
+                <td>Первая модель "Frying Pan"</td>
+            </tr>
+        </table>
+        
+        <h2>Запись на мастер-класс</h2>
+        <form>
+            <label for="name">Ваше имя:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+            
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="instrument">Выберите инструмент:</label><br>
+            <select id="instrument" name="instrument">
+                <option value="guitar">Гитара</option>
+                <option value="piano">Пианино</option>
+                <option value="drums">Ударные</option>
+            </select><br><br>
+            
+            <input type="submit" value="Отправить заявку">
+        </form>
+    </main>
+    <footer>
+        <p>© 2025 Мир Музыки — акустические инструменты ручной работы</p>
+        <p>Адрес: г. Санкт-Петербург, ул. Музыкальная, 7</p>
+        <p>Телефон: +7 (812) 345-67-89</p>
+    </footer>
+</body>
+</html>
