@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI-комплект</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="ui-kit">
+        <h1>UI-комплект элементов</h1>
+
+        <div class="form-group">
+            <label>Текстовое поле:</label>
+            <input type="text" placeholder="Введите текст">
+        </div>
+
+        <div class="form-group">
+            <label>Выпадающий список:</label>
+            <select>
+                <option>Выберите вариант</option>
+                <option>Вариант 1</option>
+                <option>Вариант 2</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label>Чекбокс:</label>
+            <input type="checkbox" id="checkbox1">
+            <label for="checkbox1" class="checkbox-label">Согласен с условиями</label>
+        </div>
+
+        <div class="form-group">
+            <label>Радиокнопки:</label>
+            <div class="radio-group">
+                <input type="radio" id="radio1" name="radio-group">
+                <label for="radio1" class="radio-label">Вариант A</label>
+
+                <input type="radio" id="radio2" name="radio-group">
+                <label for="radio2" class="radio-label">Вариант B</label>
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label>Выпадающий календарь:</label>
+            <input type="date">
+        </div>
+
+        <div class="form-group">
+            <label>Диапазон:</label>
+            <input type="range" min="0" max="100" value="50">
+        </div>
+
+        <div class="form-group">
+            <label>Прогресс-бар:</label>
+            <progress value="65" max="100"></progress>
+        </div>
+
+        <div class="form-group">
+            <button class="primary-btn">Основная кнопка</button>
+            <button class="secondary-btn">Вторая кнопка</button>
+        </div>
+    </div>
+</body>
+</html>
